@@ -1,0 +1,3 @@
+admin:admin:ADMIN
+marijana:marijana:TRENER
+marta:marta:CLAN

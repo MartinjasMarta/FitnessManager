@@ -1,0 +1,661 @@
+2023-09-01 10:30:39,123 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-01 10:30:44,726 ERROR [main] h.t.j.p.m.Main [Main.java:106] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text 'dsa' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:103)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:42)
+2023-09-01 10:52:21,007 INFO [main] h.t.j.p.m.Main [Main.java:32] Example log from Main
+2023-09-01 10:52:25,144 ERROR [main] h.t.j.p.m.Main [Main.java:236] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text 'dasd' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:234)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:108)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+2023-09-01 10:52:27,246 ERROR [main] h.t.j.p.m.Main [Main.java:236] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:234)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:108)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+2023-09-01 10:52:29,021 ERROR [main] h.t.j.p.m.Main [Main.java:236] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text 'dasd' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:234)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:108)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+2023-09-01 10:52:59,975 INFO [main] h.t.j.p.m.Main [Main.java:32] Example log from Main
+2023-09-01 10:53:03,509 ERROR [main] h.t.j.p.m.Main [Main.java:236] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text 'saf' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:234)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:108)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+2023-09-01 10:53:06,632 ERROR [main] h.t.j.p.m.Main [Main.java:236] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text 'fsdf' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:234)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:108)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+2023-09-01 10:54:17,108 INFO [main] h.t.j.p.m.Main [Main.java:32] Example log from Main
+2023-09-01 10:54:30,607 ERROR [main] h.t.j.p.m.Main [Main.java:236] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text 'daw' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:234)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:111)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+2023-09-01 10:54:35,008 ERROR [main] h.t.j.p.m.Main [Main.java:236] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '13.13.1333.' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 13
+	at java.base/java.time.format.DateTimeFormatter.createError(DateTimeFormatter.java:2077)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2012)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:234)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:111)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+Caused by: java.time.DateTimeException: Invalid value for MonthOfYear (valid values 1 - 12): 13
+	at java.base/java.time.temporal.ValueRange.checkValidIntValue(ValueRange.java:338)
+	at java.base/java.time.temporal.ChronoField.checkValidIntValue(ChronoField.java:737)
+	at java.base/java.time.chrono.IsoChronology.resolveYMD(IsoChronology.java:645)
+	at java.base/java.time.chrono.IsoChronology.resolveYMD(IsoChronology.java:127)
+	at java.base/java.time.chrono.AbstractChronology.resolveDate(AbstractChronology.java:442)
+	at java.base/java.time.chrono.IsoChronology.resolveDate(IsoChronology.java:587)
+	at java.base/java.time.chrono.IsoChronology.resolveDate(IsoChronology.java:127)
+	at java.base/java.time.format.Parsed.resolveDateFields(Parsed.java:372)
+	at java.base/java.time.format.Parsed.resolveFields(Parsed.java:278)
+	at java.base/java.time.format.Parsed.resolve(Parsed.java:265)
+	at java.base/java.time.format.DateTimeParseContext.toResolved(DateTimeParseContext.java:331)
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2112)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	... 4 common frames omitted
+2023-09-01 10:55:52,121 INFO [main] h.t.j.p.m.Main [Main.java:32] Example log from Main
+2023-09-01 10:56:13,921 ERROR [main] h.t.j.p.m.Main [Main.java:236] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text 'gvasdf' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:234)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:111)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+2023-09-01 10:56:14,794 ERROR [main] h.t.j.p.m.Main [Main.java:236] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text 'fdaf' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:234)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:111)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+2023-09-01 10:56:17,696 ERROR [main] h.t.j.p.m.Main [Main.java:236] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '02.01.1996' could not be parsed at index 10
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:234)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:111)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+2023-09-01 11:05:35,173 INFO [main] h.t.j.p.m.Main [Main.java:32] Example log from Main
+2023-09-01 11:07:57,179 INFO [main] h.t.j.p.m.Main [Main.java:32] Example log from Main
+2023-09-01 11:08:04,638 ERROR [main] h.t.j.p.m.Main [Main.java:240] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '12.121.222.' could not be parsed at index 5
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:238)
+	at hr.tvz.java.projekt.main.Main.unesiNovuOsobu(Main.java:111)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+2023-09-04 12:04:28,064 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 12:04:52,822 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 12:05:41,586 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 12:09:53,782 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 12:10:03,247 ERROR [main] h.t.j.p.m.Main [Main.java:281] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text 'dsad' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:279)
+	at hr.tvz.java.projekt.main.Main.unesiNovogTrenera(Main.java:192)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:45)
+2023-09-04 12:13:10,403 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 12:13:18,223 ERROR [main] h.t.j.p.m.Main [Main.java:300] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text 'das' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:298)
+	at hr.tvz.java.projekt.main.Main.unesiNovogTrenera(Main.java:206)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:45)
+2023-09-04 12:13:38,979 ERROR [main] h.t.j.p.m.Main [Main.java:300] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '12 12 ' could not be parsed at index 2
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:298)
+	at hr.tvz.java.projekt.main.Main.unesiNovogTrenera(Main.java:206)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:45)
+2023-09-04 12:16:01,211 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 12:16:18,881 ERROR [main] h.t.j.p.m.Main [Main.java:296] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '12.12.1222' could not be parsed at index 10
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:294)
+	at hr.tvz.java.projekt.main.Main.unesiNovogTrenera(Main.java:206)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:45)
+2023-09-04 12:23:15,503 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 12:26:46,256 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 12:27:43,723 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 12:30:20,618 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 13:39:06,281 INFO [main] h.t.j.p.m.Main [Main.java:29] Example log from Main
+2023-09-04 14:54:04,538 INFO [main] h.t.j.p.m.Main [Main.java:29] Example log from Main
+2023-09-04 15:31:34,745 INFO [main] h.t.j.p.m.Main [Main.java:28] Example log from Main
+2023-09-04 16:16:53,510 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 16:30:22,499 INFO [main] h.t.j.p.m.Main [Main.java:31] Example log from Main
+2023-09-04 16:45:05,199 INFO [main] h.t.j.p.m.Main [Main.java:29] Example log from Main
+2023-09-04 16:54:46,213 INFO [main] h.t.j.p.m.Main [Main.java:29] Example log from Main
+2023-09-04 16:54:53,790 ERROR [main] h.t.j.p.m.Main [Main.java:288] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '12.12' could not be parsed at index 5
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:286)
+	at hr.tvz.java.projekt.main.Main.unesiNovogTrenera(Main.java:160)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:43)
+2023-09-04 17:23:14,867 INFO [main] h.t.j.p.m.Main [Main.java:29] Example log from Main
+2023-09-04 17:25:33,676 INFO [main] h.t.j.p.m.Main [Main.java:29] Example log from Main
+2023-09-04 17:32:49,727 INFO [main] h.t.j.p.m.Main [Main.java:29] Example log from Main
+2023-09-04 17:34:13,572 INFO [main] h.t.j.p.m.Main [Main.java:29] Example log from Main
+2023-09-04 17:35:45,985 INFO [main] h.t.j.p.m.Main [Main.java:29] Example log from Main
+2023-09-04 17:45:55,807 INFO [main] h.t.j.p.m.Main [Main.java:25] Example log from Main
+2023-09-04 17:47:53,475 ERROR [main] h.t.j.p.m.Main [Main.java:286] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '12.12.1222' could not be parsed at index 10
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:284)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:104)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:44)
+2023-09-04 17:47:56,440 ERROR [main] h.t.j.p.m.Main [Main.java:286] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '12.12.12222.' could not be parsed at index 6
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:284)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:104)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:44)
+2023-09-04 18:02:32,263 ERROR [main] h.t.j.p.m.Main [Main.java:313] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:306)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:04:31,971 ERROR [main] h.t.j.p.m.Main [Main.java:316] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:309)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:04:59,333 ERROR [main] h.t.j.p.m.Main [Main.java:314] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:307)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:05:28,160 ERROR [main] h.t.j.p.m.Main [Main.java:314] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:307)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:06:08,050 ERROR [main] h.t.j.p.m.Main [Main.java:314] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:307)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:09:27,628 ERROR [main] h.t.j.p.m.Main [Main.java:319] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: Pogrešan unos! Pokušajte ponovo!
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:313)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:09:30,233 ERROR [main] h.t.j.p.m.Main [Main.java:319] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: Pogrešan unos! Pokušajte ponovo!
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:313)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:09:31,416 ERROR [main] h.t.j.p.m.Main [Main.java:316] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:09:32,263 ERROR [main] h.t.j.p.m.Main [Main.java:316] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:09:33,414 ERROR [main] h.t.j.p.m.Main [Main.java:316] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:09:34,205 ERROR [main] h.t.j.p.m.Main [Main.java:316] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:09:34,781 ERROR [main] h.t.j.p.m.Main [Main.java:316] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:13:47,834 ERROR [main] h.t.j.p.m.Main [Main.java:314] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:14:13,833 ERROR [main] h.t.j.p.m.Main [Main.java:314] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:14:17,047 ERROR [main] h.t.j.p.m.Main [Main.java:314] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:14:18,067 ERROR [main] h.t.j.p.m.Main [Main.java:314] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:15:02,813 ERROR [main] h.t.j.p.m.Main [Main.java:322] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:313)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:15:05,033 ERROR [main] h.t.j.p.m.Main [Main.java:322] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:313)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:15:05,804 ERROR [main] h.t.j.p.m.Main [Main.java:322] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:313)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:15:06,703 ERROR [main] h.t.j.p.m.Main [Main.java:322] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:313)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:15:08,301 ERROR [main] h.t.j.p.m.Main [Main.java:317] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:15:09,135 ERROR [main] h.t.j.p.m.Main [Main.java:317] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:15:09,924 ERROR [main] h.t.j.p.m.Main [Main.java:317] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:311)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:18:36,542 ERROR [main] h.t.j.p.m.Main [Main.java:343] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:335)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:18:38,657 ERROR [main] h.t.j.p.m.Main [Main.java:343] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:335)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:18:39,354 ERROR [main] h.t.j.p.m.Main [Main.java:339] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:333)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:18:40,166 ERROR [main] h.t.j.p.m.Main [Main.java:339] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:333)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:18:41,165 ERROR [main] h.t.j.p.m.Main [Main.java:339] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:333)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:18:44,330 ERROR [main] h.t.j.p.m.Main [Main.java:343] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:335)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:38)
+2023-09-04 18:19:00,980 ERROR [main] h.t.j.p.m.Main [Main.java:343] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:335)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:57)
+2023-09-04 18:19:02,354 ERROR [main] h.t.j.p.m.Main [Main.java:339] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:333)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:57)
+2023-09-04 18:19:03,114 ERROR [main] h.t.j.p.m.Main [Main.java:339] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:333)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:57)
+2023-09-04 18:21:02,397 ERROR [main] h.t.j.p.m.Main [Main.java:316] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '12.12.1222.2' could not be parsed, unparsed text found at index 11
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2109)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:314)
+	at hr.tvz.java.projekt.main.Main.unesiNovogTrenera(Main.java:179)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:49)
+2023-09-04 18:21:16,813 ERROR [main] h.t.j.p.m.Main [Main.java:350] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiFloat(Main.java:347)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:148)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:68)
+2023-09-04 18:24:55,283 ERROR [main] h.t.j.p.m.Main [Main.java:367] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiFloat(Main.java:364)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:160)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:68)
+2023-09-04 18:25:02,759 ERROR [main] h.t.j.p.m.Main [Main.java:367] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiFloat(Main.java:364)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:162)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:68)
+2023-09-04 18:44:23,695 ERROR [main] h.t.j.p.m.Main [Main.java:435] Nije unesen broj!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: 
+	at hr.tvz.java.projekt.main.Main.unesiVisinu(Main.java:427)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:162)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:69)
+2023-09-04 18:45:54,633 ERROR [main] h.t.j.p.m.Main [Main.java:437] Nije unesen broj!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: 
+	at hr.tvz.java.projekt.main.Main.unesiVisinu(Main.java:429)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:162)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:69)
+2023-09-04 18:46:10,075 ERROR [main] h.t.j.p.m.Main [Main.java:452] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiFloat(Main.java:449)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:178)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:69)
+2023-09-04 18:46:10,870 ERROR [main] h.t.j.p.m.Main [Main.java:452] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiFloat(Main.java:449)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:178)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:69)
+2023-09-04 18:46:12,643 ERROR [main] h.t.j.p.m.Main [Main.java:452] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiFloat(Main.java:449)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:189)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:69)
+2023-09-04 18:46:15,647 ERROR [main] h.t.j.p.m.Main [Main.java:452] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiFloat(Main.java:449)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:211)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:69)
+2023-09-04 18:46:18,306 ERROR [main] h.t.j.p.m.Main [Main.java:452] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiFloat(Main.java:449)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:222)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:69)
+2023-09-05 11:43:44,799 ERROR [main] h.t.j.p.m.Main [Main.java:431] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:423)
+	at hr.tvz.java.projekt.main.Main.unosClanarine(Main.java:314)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:147)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:66)
+2023-09-05 11:45:03,338 ERROR [main] h.t.j.p.m.Main [Main.java:411] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '12.121.122.' could not be parsed at index 5
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:409)
+	at hr.tvz.java.projekt.main.Main.unesiNovogTrenera(Main.java:258)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:49)
+2023-09-05 11:45:27,286 ERROR [main] h.t.j.p.m.Main [Main.java:431] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:423)
+	at hr.tvz.java.projekt.main.Main.unosClanarine(Main.java:314)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:147)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:66)
+2023-09-05 11:49:11,171 ERROR [main] h.t.j.p.m.Main [Main.java:448] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:440)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:40)
+2023-09-05 11:49:13,326 ERROR [main] h.t.j.p.m.Main [Main.java:448] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:440)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:40)
+2023-09-05 11:49:14,264 ERROR [main] h.t.j.p.m.Main [Main.java:444] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:438)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:40)
+2023-09-05 11:49:15,051 ERROR [main] h.t.j.p.m.Main [Main.java:444] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:438)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:40)
+2023-09-05 11:49:15,815 ERROR [main] h.t.j.p.m.Main [Main.java:444] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:438)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:40)
+2023-09-05 11:49:46,810 ERROR [main] h.t.j.p.m.Main [Main.java:323] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unosClanarine(Main.java:317)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:147)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:66)
+2023-09-05 11:51:51,716 ERROR [main] h.t.j.p.m.Main [Main.java:449] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:443)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:40)
+2023-09-05 11:51:52,862 ERROR [main] h.t.j.p.m.Main [Main.java:453] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:445)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:40)
+2023-09-05 11:55:59,722 ERROR [main] h.t.j.p.m.Main [Main.java:476] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiVisinu(Main.java:468)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:168)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:66)
+2023-09-05 11:56:32,814 ERROR [main] h.t.j.p.m.Main [Main.java:476] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiVisinu(Main.java:468)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:168)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:66)
+2023-09-05 11:56:34,909 ERROR [main] h.t.j.p.m.Main [Main.java:476] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiVisinu(Main.java:468)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:168)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:66)
+2023-09-05 11:56:37,860 ERROR [main] h.t.j.p.m.Main [Main.java:480] Nije unesen broj!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: 
+	at hr.tvz.java.projekt.main.Main.unesiVisinu(Main.java:472)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:168)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:66)
+2023-09-05 11:58:27,865 ERROR [main] h.t.j.p.m.Main [Main.java:437] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '12.12.122.' could not be parsed at index 6
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiNovogTrenera(Main.java:262)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:49)
+2023-09-05 11:58:29,959 ERROR [main] h.t.j.p.m.Main [Main.java:437] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '12.1212..' could not be parsed at index 5
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiNovogTrenera(Main.java:262)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:49)
+2023-09-05 11:58:37,183 ERROR [main] h.t.j.p.m.Main [Main.java:437] Unešen krivi format datuma.
+java.time.format.DateTimeParseException: Text '12.12.12122.' could not be parsed at index 6
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiDatum(Main.java:435)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:139)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:66)
+2023-09-05 12:48:43,216 ERROR [main] h.t.j.p.m.Main [Main.java:566] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiFloat(Main.java:563)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:234)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:65)
+2023-09-05 12:49:22,711 ERROR [main] h.t.j.p.m.Main [Main.java:528] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:520)
+	at hr.tvz.java.projekt.main.Main.unesiNovuSekciju(Main.java:320)
+	at hr.tvz.java.projekt.main.Main.unesiSekciju(Main.java:287)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:80)
+2023-09-05 12:52:52,321 ERROR [main] h.t.j.p.m.Main [Main.java:572] Nije unesen broj!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at hr.tvz.java.projekt.main.Main.unesiFloat(Main.java:569)
+	at hr.tvz.java.projekt.main.Main.unesiNovogClana(Main.java:179)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:65)
+2023-09-05 12:53:10,198 ERROR [main] h.t.j.p.m.Main [Main.java:534] Unesena je pogrešna vrijednost broja!
+hr.tvz.java.projekt.iznimke.NeispravnaVrijednostUnesenogBroja: null
+	at hr.tvz.java.projekt.main.Main.unesiInt(Main.java:526)
+	at hr.tvz.java.projekt.main.Main.unesiNovuSekciju(Main.java:323)
+	at hr.tvz.java.projekt.main.Main.unesiSekciju(Main.java:287)
+	at hr.tvz.java.projekt.main.Main.main(Main.java:80)
